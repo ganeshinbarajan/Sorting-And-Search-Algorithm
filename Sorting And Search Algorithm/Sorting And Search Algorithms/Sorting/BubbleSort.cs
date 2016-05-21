@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Sorting_And_Search_Algorithm.Sorting
+namespace Sorting_And_Search_Algorithms.Sorting
 {
     public class BubbleSort
     {

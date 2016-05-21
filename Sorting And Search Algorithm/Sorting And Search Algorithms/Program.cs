@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Sorting_And_Search_Algorithm.Sorting;
+using Sorting_And_Search_Algorithms.Sorting;
 
 namespace Sorting_And_Search_Algorithms
 {
