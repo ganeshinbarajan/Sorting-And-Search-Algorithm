@@ -20,7 +20,7 @@ namespace Sorting_And_Search_Algorithms
             var quickSortResult=quickSort.Sort(input);
 
             var binarySearch = new Binary();
-            var binarySearchResult = binarySearch.Search(quickSortResult, 9);
+            var binarySearchResult = binarySearch.Search(quickSortResult, 5);
             Console.Write(input);
             Console.ReadLine();
         }

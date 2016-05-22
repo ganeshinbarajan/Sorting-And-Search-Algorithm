@@ -19,11 +19,11 @@ namespace Sorting_And_Search_Algorithms.Searching
                 midBound = lowBound + (highBound - lowBound) / 2;
                 if (itemlist[midBound] < searchItem)
                 {
-                    lowBound = lowBound + 1;
+                    lowBound = midBound + 1;
                 }
                 else if (itemlist[midBound] > searchItem)
                 {
-                    lowBound = lowBound - 1;
+                    lowBound = midBound - 1;
                 }
                 else if (itemlist[midBound] == searchItem)
                 {
